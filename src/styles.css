@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+.body1 {
+  background-image: url("./assets/images/Mainbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: calc(100vh);
+  min-height: 700px;
+  position: relative;
+}
+.body1:before {
+  content: "";
+  position: absolute;
+  top: -1%;
+  left: -1%;
+  right: -0.4%;
+  bottom: 0;
+  background: black;
+  opacity: 0.3;
+}
